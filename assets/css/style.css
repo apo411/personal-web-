@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  background: var(--background-color);
+  color: var(--beyaz);
+
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sarı);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+
+:root {
+  --background-color: #171C26;
+  --mavi: #09C0FA;
+  --sarı: #FFB647;
+  --beyaz: #ffff;
+  --mor: rgb(152, 38, 245);
+
+}
+
+
+.nav-bar {
+  margin-top: 30px;
+}
+
+.green {
+  color: var(--mor);
+}
+
+.nav {
+  margin-top: -700px;
+  margin-left: 120px;
+}
+
+.right {
+  margin-right: 60px;
+}
+
+a {
+  color: var(--beyaz);
+  text-decoration: none;
+  font-size: 30px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  display:block;
+  text-align: right;
+
+}
+
+a:hover {
+  color: var(--mor);
+  margin-top: 5px;
+}
+
+.controller {
+  margin-left: 610px;
+}
+
+
+
+.section-text {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.section-name {
+  text-align: center;
+  color: var(--mor);
+}
+
+.container {
+  margin: auto;
+  margin-top: 40px;
+  background-color: var(--background-color);
+  width: 300px;
+  height: 400px;
+
+
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  opacity: 70%;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.container-img {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: 3px solid var(--mor);
+}
+
+.container-text-name {
+  text-align: center;
+  color: var(--sarı);
+}
+
+.container-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.red {
+  color: rgb(161, 0, 0)
+}
+
+.container:hover {
+  border: 1px solid var(--mor);
+  opacity: 100%;
+}
+.footer-text {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.hamburger-btn{
+  background-color: var(--background-color);
+  color: var(--beyaz);
+  border:none;
+  margin-left: 850px;
+  font-size: 30px;
+}
+
+.text-div{
+  display: none;
+}
+.text-div-inline{
+  display:inline;
+}
+
+
+
+
+
+
